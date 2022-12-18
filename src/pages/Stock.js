@@ -27,7 +27,7 @@ const Stock = () => {
       stockChartYValueFunction.push(result.data['Time Series (Daily)']
     [key]['1. open'])
       stockCloseData.push(result.data['Time Series (Daily)'][key]['4. close'])      
-      stockVolume.push(result.data['Time Series (Daily)'][key]['5. volume'])      
+      stockVolume.push(result.data['Time Series (Daily)'][key]['6. volume'])      
     }
   
     setxStockChart(stockChartXValueFunction)
