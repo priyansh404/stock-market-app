@@ -18,7 +18,7 @@ const Stock = () => {
     const stockCloseData = [];
     const stockVolume = [];
 
-    const URL = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${search}&outputsize=compact&apikey=${API_key}`
+    const URL = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=${search}&outputsize=compact&apikey=${API_key}`
     const promise = API_CLIENT.get(URL)
     promise.then(result=>{
       console.log(result.data)
