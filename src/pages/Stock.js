@@ -52,7 +52,7 @@ return (
       <h1 className='text-light p-4 bg-dark'>Stock Market <span className='text-danger'>Tracking</span> App</h1>
       <br />
       <form >
-        <input className='text-secondary  p-3 rounded form-control container bg-dark' type='search' placeholder='Enter a Valid Stock Symbol' ref={inputRef} />  
+        <input className='text-secondary  p-3 rounded form-control container bg-dark' type='search' placeholder='Enter a Valid Stock Symbol. Eg:"GOOG" ' ref={inputRef} />  
         <br/>
         <button className=' btn btn-outline-secondary p-3 ' onClick={handleRef}> Search </button>
       </form>
