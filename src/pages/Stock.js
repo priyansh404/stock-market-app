@@ -84,7 +84,6 @@ return (
             <th>Date</th>
             <th>Open</th>
             <th>Close</th>
-            <th>Volume</th>
           </tr>
         </thead>
         <tbody>
