@@ -88,11 +88,11 @@ return (
           </tr>
         </thead>
         <tbody>
-          <StockTable date={xStockChart[0]} open={yStockChart[0]} close={closeData[0]} volume={volumeData[0]} />
-          <StockTable date={xStockChart[1]} open={yStockChart[1]} close={closeData[1]} volume={volumeData[1]} />
-          <StockTable date={xStockChart[2]} open={yStockChart[2]} close={closeData[2]} volume={volumeData[2]} />
-          <StockTable date={xStockChart[3]} open={yStockChart[3]} close={closeData[3]} volume={volumeData[3]} />
-          <StockTable date={xStockChart[4]} open={yStockChart[4]} close={closeData[4]} volume={volumeData[4]} />
+          <StockTable date={xStockChart[0]} open={yStockChart[0]} close={closeData[0]} } />
+          <StockTable date={xStockChart[1]} open={yStockChart[1]} close={closeData[1]} } />
+          <StockTable date={xStockChart[2]} open={yStockChart[2]} close={closeData[2]} } />
+          <StockTable date={xStockChart[3]} open={yStockChart[3]} close={closeData[3]} } />
+          <StockTable date={xStockChart[4]} open={yStockChart[4]} close={closeData[4]} } />
         </tbody>
       </table>
       <br />
